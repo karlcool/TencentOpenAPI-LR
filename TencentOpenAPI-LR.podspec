@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                                                    LICENSE
                           }
   s.author              = { 'Tencent' => 'open@qq.com' }
-  s.platform            = :ios
+  s.platform            = :ios, "9.0"
   s.source              = { :git => 'https://github.com/karlcool/TencentOpenAPI-LR.git', :tag => "#{s.version}" }
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony', 'WebKit'
   s.libraries           = 'iconv', 'sqlite3', 'c++', 'z'
